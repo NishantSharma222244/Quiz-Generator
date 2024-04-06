@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color:aquamarine;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #quiz {
+    margin-top: 20px;
+  }
+  
+  #quiz div {
+    margin-bottom: 15px;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  #feedback {
+    margin-top: 20px;
+  }
+  
+  #feedback div {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #feedback h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  #feedback h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  #feedback p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
